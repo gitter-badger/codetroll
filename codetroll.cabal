@@ -2,7 +2,7 @@ name:           codetroll
 version:        0.1.0.0
 cabal-version:  >=1.8
 build-type:     Simple
-license:        AllRightsReserved
+license-file:   LICENSE.txt
 maintainer:     laurence@rouesnel.com
 synopsis:       A command line tool that protects against intellectual property leaks in git commits.
 author:         Laurence Rouesnel

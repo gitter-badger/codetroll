@@ -41,6 +41,7 @@ executable codetroll
   main-is: Main.hs
   hs-source-dirs: src-exec
   build-depends: base, codetroll
+  ghc-options: -static -optl-static -threaded -O2
 
 test-suite hunit
   type:           exitcode-stdio-1.0
